@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="f36bc2b472a8423ca877af692a2e8c95" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_f36bc2b472a8423ca877af692a2e8c95 = echarts.init(
+            document.getElementById('f36bc2b472a8423ca877af692a2e8c95'), 'white', {renderer: 'canvas'});
+        var option_f36bc2b472a8423ca877af692a2e8c95 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "True Price",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2020-03-31",
+                    [
+                        29.47
+                    ]
+                ],
+                [
+                    "2020-04-30",
+                    [
+                        22.366
+                    ]
+                ],
+                [
+                    "2020-05-31",
+                    [
+                        31.473
+                    ]
+                ],
+                [
+                    "2020-06-30",
+                    [
+                        22.503
+                    ]
+                ],
+                [
+                    "2020-07-31",
+                    [
+                        17.84
+                    ]
+                ],
+                [
+                    "2020-08-31",
+                    [
+                        13.641
+                    ]
+                ],
+                [
+                    "2020-09-30",
+                    [
+                        18.806
+                    ]
+                ],
+                [
+                    "2020-10-31",
+                    [
+                        19.024
+                    ]
+                ],
+                [
+                    "2020-11-30",
+                    [
+                        20.533
+                    ]
+                ],
+                [
+                    "2020-12-31",
+                    [
+                        16.775
+                    ]
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "Predicted Price",
+            "connectNulls": false,
+            "symbol": "emptyCircle",
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2020-03-31",
+                    [
+                        21.513755798339844
+                    ]
+                ],
+                [
+                    "2020-04-30",
+                    [
+                        21.355239868164062
+                    ]
+                ],
+                [
+                    "2020-05-31",
+                    [
+                        21.51227569580078
+                    ]
+                ],
+                [
+                    "2020-06-30",
+                    [
+                        21.47549819946289
+                    ]
+                ],
+                [
+                    "2020-07-31",
+                    [
+                        21.567073822021484
+                    ]
+                ],
+                [
+                    "2020-08-31",
+                    [
+                        21.295989990234375
+                    ]
+                ],
+                [
+                    "2020-09-30",
+                    [
+                        19.554977416992188
+                    ]
+                ],
+                [
+                    "2020-10-31",
+                    [
+                        18.83293914794922
+                    ]
+                ],
+                [
+                    "2020-11-30",
+                    [
+                        17.582820892333984
+                    ]
+                ],
+                [
+                    "2020-12-31",
+                    [
+                        18.999385833740234
+                    ]
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "True Price",
+                "Predicted Price"
+            ],
+            "selected": {
+                "True Price": true,
+                "Predicted Price": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "name": "\u65f6\u95f4",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": 10,
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2020-03-31",
+                "2020-04-30",
+                "2020-05-31",
+                "2020-06-30",
+                "2020-07-31",
+                "2020-08-31",
+                "2020-09-30",
+                "2020-10-31",
+                "2020-11-30",
+                "2020-12-31"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "\u4ef7\u683c",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": true,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u6d4b\u8bd5\u96c6\u4e0a\u7684\u9884\u6d4b\u6548\u679c",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": {
+        "show": true,
+        "type": "slider",
+        "realtime": true,
+        "start": 20,
+        "end": 80,
+        "orient": "horizontal",
+        "zoomLock": false,
+        "filterMode": "filter"
+    }
+};
+        chart_f36bc2b472a8423ca877af692a2e8c95.setOption(option_f36bc2b472a8423ca877af692a2e8c95);
+    </script>
+</body>
+</html>

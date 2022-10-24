@@ -1,0 +1,23 @@
+{
+    "model type": "LSTM",
+    "model name": "月_LSTM_2022Y-10M-25D_01H_20m_48s_300ep_6ws_8bs_adam_full.h5",
+    "data them": "月",
+    "train mode": "full",
+    "train time": "2022Y-10M-25D_01H_20m_48s",
+    "windows_size": 6,
+    "epoch": 300,
+    "dropout": 0.1,
+    "l1": 0.1,
+    "l2": 0.01,
+    "epochs": 300,
+    "batch size": 8,
+    "optimizer": "adam",
+    "r2 score on train": 0.22621046565062597,
+    "explained variance score on train": 0.23012141127039631,
+    "avg huber loss on train": 31.9295752843221,
+    "min huber loss on train": 17.6755428314209,
+    "max huber loss on train": 401.62518310546875,
+    "avg huber val_loss on validation": 29.35220455593533,
+    "min huber val_loss on validation": 16.37070655822754,
+    "max huber val_loss on validation": 427.3765563964844
+}

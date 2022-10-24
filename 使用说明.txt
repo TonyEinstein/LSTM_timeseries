@@ -1,0 +1,20 @@
+1. 需要你有一定的Python基础，能看懂基本的Python语法、最好学过tf2.0的基础。
+
+2. 数据文件格式是：
+time,price
+2007-02-28,19.629
+2007-03-31,17.666
+.....
+
+3.具体的数据文件路径等模型配置可以参考parameter_initialization()函数【这个一定要看和根据自己的实际情况做出调整、比如数据文件路径】，注意从Univariate_prediction.py的main函数开始看起。
+
+
+4.Univariate_prediction.py是主文件、即算法main入口。visualization.py是数据可视化文件。window_feature.py是滑动窗口的构建模块。characteristics_processing.py是数据预处理。
+
+5.大致流程
+（0）使用conda创建虚拟环境，然后使用conda导入tf2_cpu.yaml文件的版本包。
+（1）先训练part模式。使用part模式进行实验找到比较好的窗口和超参数，以及评估历史数据效果。
+（2）然后使用full模式得到要预测未来的模型。
+（3）将full模型训练的模型文件填入对应变量位置（--load_model_name），然后使用predict模式预测未来（预测未来的时候需要指定predict_last_time，就是你预测的未来范围的最后一个时间点）。
+（4）注意：原程序的数据格式如第2点所示，原数据是对价格数据进行预测的，你可以按照自己的需要去修改为自己的数据。【原数据我不提供，但是我提供随机加密和脱敏后的数据供你实验和调试】
+（5）data文件夹和holiday文件夹不要删除掉。（holiday文件夹可要可不要，因为是别的实验才需要的）
