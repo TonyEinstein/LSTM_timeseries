@@ -1,6 +1,5 @@
 # !/usr/bin python3                                 
 # encoding    : utf-8 -*-                            
-# @author     :                               
 # @software   : PyCharm      
 # @file       :   visualization.py
 # @Time       :   2021/8/26 17:12

@@ -1,6 +1,5 @@
 # !/usr/bin python3                                 
 # encoding    : utf-8 -*-                            
-# @author     :                                 
 # @software   : PyCharm      
 # @file       :   IPO_prediction.py
 # @Time       :   2021/8/26 17:05

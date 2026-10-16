@@ -1,6 +1,5 @@
 # !/usr/bin python3                                 
 # encoding    : utf-8 -*-                            
-# @author     :                                
 # @software   : PyCharm      
 # @file       :   characteristics_processing.py
 # @Time       :   2021/8/27 9:07
