@@ -51,3 +51,7 @@ predict模式是在full模式训练出模式之后，使用full模式训练出�
 - dropout
 - units1
 - units2
+
+## License
+
+[MIT](./LICENSE) © TonyEinstein
